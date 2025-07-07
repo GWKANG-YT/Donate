@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support GW Kang's Creations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="donation-card">
+        <h1 class="card-title">Support GW Kang!</h1>
+        <p class="card-intro">Your contributions fuel creativity and help bring new projects to life. Thank-you!</p>
+
+        <div class="input-section">
+            <label for="customAmountInput" class="input-label">Enter your desired amount (in INR):</label>
+            <input type="number" id="customAmountInput" class="amount-input" placeholder="Minimum ₹10" min="10" step="1" value="50">
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+
+        <a id="upiPaymentLink" href="#" class="pay-button">Pay via UPI</a>
+
+        <p class="upi-id-info">
+            UPI ID: <strong class="upi-id-value">inderpreet.k@fam</strong>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
